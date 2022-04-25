@@ -12,4 +12,4 @@
 - Zero arguments for a function is very good. One argument is good. Two arguments are enough good. Three arguments (triadic) should be avoided where possible. More than three (polyadic) requires very special justification—and then shouldn’t be used anyway.
 - Try/catch blocks are ugly in their own right. They confuse the structure of the code and mix error processing with normal processing. So try/cactch should do on main function, the function which is called can skip try/catch.
 - `Don’t Repeat Yourself`
-- if need to update, update on one place is better than multiple places, if you are not trust your memory
+- Add new is better than change, but if need to update, update on one place is better than multiple places, if you are not trust your memory
